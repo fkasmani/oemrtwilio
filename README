@@ -1,0 +1,38 @@
+This is regarding the Twilio SMS Notifications script for OpenEMR thet I'm working on and am pleased to let you know that
+it's now complete and we've thoroughly tested it and it's working fine.
+
+This project has been made using OpenEMR 4.1.1 (patch11) as the base.
+
+In respect to the project, I've just got some important notes:
+
+Files Modified:
+
+    /var/www/openemr/library/globals.inc.php
+    /var/www/openemr/modules/sms_email/reminder/cron_sms_notification.php
+
+Files/Directories Added:
+
+    /var/www/openemr/modules/sms_email/reminder/sendnotifications.php
+    /var/www/openemr/modules/sms_email/reminder/twilio
+
+Cron for the script:
+
+    Can be set to run every hour
+    Command:
+    wget -q --spider http://IP_NUMBER/openemr/modules/sms_email_reminder/cron_sms_notification.php
+    change IP_NUMBER in above command to IP Number of OpenEMR on which the twilio script is running
+
+SMS Body:
+
+    This is now in the cron_sms_notifications.php file on line 141 and should be edited there as required.
+
+Attached also are report files showing what changes have been made to 'globals.inc.php' and 'cron_sms_notification.php'.
+
+Pls contact me for more info.
+
+Regards,
+Fayyaz Kasmani,
+CTO.
+NetConnexions - A G-Biz (Canada) Company.
+
+

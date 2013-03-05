@@ -1,0 +1,833 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+body { font-family: sans-serif; font-size: 11pt; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextItemInsigAdd { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigDel { color: #000000; background-color: #EFEFFF; text-decoration: line-through; }
+td.TextItemInsigDiffMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigLeftMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemInsigRightMod { color: #000000; background-color: #EFEFFF; }
+td.TextItemNum { color: #827357; background-color: #F2F2F2; }
+td.TextItemSame { color: #000000; background-color: #FFFFFF; }
+td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
+td.TextItemSigDiffMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigLeftMod { color: #000000; background-color: #FFE3E3; }
+td.TextItemSigRightMod { color: #000000; background-color: #FFE3E3; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br/>
+Produced: 3/2/2013 4:56:47 PM<br/>
+&nbsp; &nbsp;
+<br/>
+Mode:&nbsp; Differences, With Context &nbsp;
+<br/>
+Left file: C:\Documents and Settings\Africa\Desktop\Twilio SMS-Notification project for OpenEMR\project\library\BEFORETWILIO_globals.inc.php.txt &nbsp;
+<br/>
+Right file: C:\Documents and Settings\Africa\Desktop\Twilio SMS-Notification project for OpenEMR\project\library\globals.inc.php &nbsp;
+<br/>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">908</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'SMS_GATEWAY_APIKEY' =&gt; array(</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">908</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'SMS_GATEWAY_APIKEY' =&gt; array(</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">909</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('SMS Gateway API Key'),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">909</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('SMS Gateway API Key'),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">910</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'text',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">910</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'text',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">911</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // default</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">911</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // default</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">912</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('API key for SMS Gateway.')</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">912</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('API key for SMS Gateway.')</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">913</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">913</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">-+</td>
+<td class="TextItemNum AlignRight">914</td>
+<td class="TextItemInsigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">915</td>
+<td class="TextItemInsigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">916</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'TWILIO_ACCOUNT_SID'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">array(</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">917</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Twilio</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Account</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Sid'),</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">918</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'text',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">data</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">919</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">default</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">920</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Account</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Sid</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">for</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Twilio.')</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">921</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">922</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; </span><span class="TextSegSigDiff">'TWILIO_AUTHTOKEN'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">array(</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">923</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Twilio</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Auth</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Token'),</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">924</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'text',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">data</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">925</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">default</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">926</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Auth</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Token</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">for</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Twilio.')</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">927</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">928</td>
+<td class="TextItemInsigRightMod"><span class="TextSegInsigDiff">&nbsp; </span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">929</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">'TWILIO_FROM'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">array(</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">930</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Twilio</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">From</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name'),</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">931</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'text',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">data</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">932</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">default</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">933</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Twilio</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">From</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">name')</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">934</td>
+<td class="TextItemSigRightMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">935</td>
+<td class="TextItemInsigRightMod">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">936</td>
+<td class="TextItemInsigRightMod">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">914</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">937</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">915</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'phone_notification_hour' =&gt; array(</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">938</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'phone_notification_hour' =&gt; array(</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">916</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Phone Notification Hour'),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">939</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Phone Notification Hour'),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">917</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'num',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // data type</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">940</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'num',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // data type</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">918</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '50',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // default</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">941</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '50',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // default</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">919</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Number of hours in advance to send Phone notification.')</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">942</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Number of hours in advance to send Phone notification.')</td>
+</tr>
+<tr class="SectionGap"><td colspan="5">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1012</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'enable_amc_tracking' =&gt; array(</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">1035</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'enable_amc_tracking' =&gt; array(</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1013</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable AMC Tracking'),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1036</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable AMC Tracking'),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1014</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1037</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1015</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '1',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // default</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1038</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '1',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // default</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1016</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable Reporting of Tracking Date For Automated Measure Calculations (AMC)')</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1039</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable Reporting of Tracking Date For Automated Measure Calculations (AMC)')</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1017</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1040</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1018</td>
+<td class="TextItemInsigLeftMod">&nbsp;</td>
+<td class="AlignCenter">+-</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1019</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">'cdr_report_nice'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">array(</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1020</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('CDR</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Reports</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Processing</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1021</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">array(</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1022</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">''</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Default</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1023</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'5'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Moderate</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1024</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'10'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Moderate/Low</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1025</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'15'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Low</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1026</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'20'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Lowest</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority')</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1027</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1028</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">default</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1029</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Set</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">processing</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">priority</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">for</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">CDR</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">engine</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">based</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">reports.')</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1030</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1031</td>
+<td class="TextItemInsigLeftMod">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1032</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">'pat_rem_clin_nice'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">array(</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1033</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Patient</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Reminder</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Creation</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Processing</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1034</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">array(</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1035</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">''</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Default</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1036</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'5'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Moderate</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1037</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'10'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Moderate/Low</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1038</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'15'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Low</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1039</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'20'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">xl('Lowest</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Priority')</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1040</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1041</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">default</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1042</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Set</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">processing</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">priority</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">for</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">creation</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">of</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Patient</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Reminders</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">(in</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">full</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">clinic</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">mode).')</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1043</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1044</td>
+<td class="TextItemSame"> </td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">1041</td>
+<td class="TextItemSame"> </td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1045</td>
+<td class="TextItemSame">&nbsp; ),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1042</td>
+<td class="TextItemSame">&nbsp; ),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1046</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1043</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1047</td>
+<td class="TextItemSame">&nbsp; // Logging</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1044</td>
+<td class="TextItemSame">&nbsp; // Logging</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1048</td>
+<td class="TextItemSame">&nbsp; //</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1045</td>
+<td class="TextItemSame">&nbsp; //</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1049</td>
+<td class="TextItemSame">&nbsp; 'Logging' =&gt; array(</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1046</td>
+<td class="TextItemSame">&nbsp; 'Logging' =&gt; array(</td>
+</tr>
+<tr class="SectionGap"><td colspan="5">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1099</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">1096</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1100</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'audit_events_query' =&gt; array(</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1097</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'audit_events_query' =&gt; array(</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1101</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Audit Logging SELECT Query'),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1098</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Audit Logging SELECT Query'),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1102</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1099</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1103</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '0',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // default</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1100</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '0',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // default</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1104</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable logging of all SQL SELECT queries.').' ('.xl('Note that Audit Logging needs to be enabled above').')'</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1101</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable logging of all SQL SELECT queries.').' ('.xl('Note that Audit Logging needs to be enabled above').')'</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1105</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span></td>
+<td class="AlignCenter">+-</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1106</td>
+<td class="TextItemInsigLeftMod">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1107</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">'audit_events_cdr'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">array(</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1108</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Audit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">CDR</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Engine</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Queries'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1109</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'bool',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">data</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1110</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'0',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">default</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1111</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Enable</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">logging</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">of</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">CDR</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Engine</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Queries.').'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">('.xl('Note</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">that</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Audit</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Logging</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">needs</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">to</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">be</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">enabled</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">above').')'</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1112</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">1102</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1113</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1103</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1114</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'enable_atna_audit' =&gt; array(</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1104</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'enable_atna_audit' =&gt; array(</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1115</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable ATNA Auditing'),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1105</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable ATNA Auditing'),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1116</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1106</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1117</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '0',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // default</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1107</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '0',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // default</td>
+</tr>
+<tr class="SectionGap"><td colspan="5">&nbsp;</td></tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1338</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable Offsite Patient Portal'),</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">1328</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable Offsite Patient Portal'),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1339</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1329</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'bool',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1340</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '0',</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1330</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '0',</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1341</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable Offsite Patient Portal.')</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1331</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Enable Offsite Patient Portal.')</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1342</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1332</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1343</td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1333</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1344</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">'portal_offsite_providerid'</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">=&gt;</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">array(</span></td>
+<td class="AlignCenter">+-</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1345</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Offsite</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Patient</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Portal</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Provider</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ID'),</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1346</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'text',</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">//</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">data</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">type</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1347</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">'',</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1348</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">xl('Offsite</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Patient</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Portal</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Provider</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">ID(Put</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Blank</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">If</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">not</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">Registered).')</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1349</td>
+<td class="TextItemSigLeftMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegSigDiff">),</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1350</td>
+<td class="TextItemInsigLeftMod">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemNum AlignRight">1351</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'portal_offsite_username' =&gt; array(</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemNum AlignRight">1334</td>
+<td class="TextItemSame">&nbsp; &nbsp; 'portal_offsite_username' =&gt; array(</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1352</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Offsite Patient Portal Username'),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1335</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Offsite Patient Portal Username'),</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1353</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'text',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1336</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; 'text',&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; // data type</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1354</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '',</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1337</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; '',</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemNum AlignRight">1355</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Offsite Patient Portal Username(Put Blank If not Registered).')</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1338</td>
+<td class="TextItemSame">&nbsp; &nbsp; &nbsp; xl('Offsite Patient Portal Username(Put Blank If not Registered).')</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemNum AlignRight">1356</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemNum AlignRight">1339</td>
+<td class="TextItemSame">&nbsp; &nbsp; ),</td>
+</tr>
+</table>
+<br/>
+</body>
+</html>
